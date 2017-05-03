@@ -110,10 +110,10 @@ footer{
 }
 
 .contenedorImagenGrande{
-  width: 60%;
+  width: 50%;
   position: fixed;
-  left: 20%;
-  top: 15%;
+  left: 25%;
+  top: 6%;
   border: 5px double black;
 }
 .tamanoImagenGrande{
