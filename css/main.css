@@ -40,6 +40,7 @@ a:hover {
 .link{
   font-weight: 700;
   padding: 25px;
+  text-align: center;
 }
 
 #home{
@@ -87,14 +88,6 @@ a:hover {
   letter-spacing: 2px;
 }
 
-footer{
-  text-align: center;
-  height: 70px;
-  background: #373B47;
-  color: white;
-  padding-top: 7px;
-}
-
 #work{
   text-align: center;
   padding: 70px 7px;
@@ -106,4 +99,28 @@ footer{
 
 .imagen{
   width: 100%;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color: white;
+  padding-top: 7px;
+}
+
+.contenedorImagenGrande{
+  width: 60%;
+  position: fixed;
+  left: 20%;
+  top: 15%;
+  border: 5px double black;
+}
+.tamanoImagenGrande{
+  width: 100%;
+}
+.btnCerrar{
+  position: absolute;
+  left: 3%;
+  top: 3%;
 }
