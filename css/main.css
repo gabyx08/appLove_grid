@@ -74,3 +74,26 @@ a:hover {
   display: inline-block;
   font-size: 14px;
 }
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services {
+  margin-top: 63px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color: white;
+  padding-top: 7px;
+}
