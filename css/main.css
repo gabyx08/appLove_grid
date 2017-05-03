@@ -18,10 +18,16 @@
 body {
   /* Establece la fuente de Google aquí */
   margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
 }
+
+/*header{
+  position: fixed;
+  background: white;
+}*/
 
 img {
   vertical-align: middle;
@@ -34,4 +40,37 @@ a {
 
 a:hover {
   color: #E95853;
+}
+
+.link{
+  font-weight: 700;
+  padding: 25px;
+}
+
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+}
+
+.white-letter{
+  color: white;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2ECC71;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
 }
