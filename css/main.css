@@ -24,11 +24,6 @@ body {
   background-color: #fff;
 }
 
-/*header{
-  position: fixed;
-  background: white;
-}*/
-
 img {
   vertical-align: middle;
 }
@@ -54,6 +49,8 @@ a:hover {
   background-size: cover;
   height: 554px;
   text-align: center;
+  padding: 70px 7px;
+
 }
 
 .white-letter{
@@ -96,4 +93,17 @@ footer{
   background: #373B47;
   color: white;
   padding-top: 7px;
+}
+
+#work{
+  text-align: center;
+  padding: 70px 7px;
+}
+
+.text{
+  padding: 15px;
+}
+
+.imagen{
+  width: 100%;
 }
